@@ -1,0 +1,49 @@
+<!--
+  ~ Copyright (C) 2010 Jesse Wilson
+  ~ Copyright 2014 Prateek Srivastava (@f2prateek)
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+  <string name="app_name">Shush! WiFi</string>
+
+  <!-- Clock Slider -->
+  <string name="minutes">minutes</string>
+  <string name="hour">hour</string>
+  <string name="hours">hours</string>
+
+  <!-- Welcome -->
+  <string name="customize">Customize</string>
+  <string name="notifications">Notifications</string>
+  <string name="notifications_disabled">Notifications disabled</string>
+  <string name="welcome_message">Activate Shush by turning your Wi-Fi off</string>
+  <string name="share_title">Like this app?</string>
+  <string name="share_chooser_title">Share the Love</string>
+  <string name="share">Your friends will too</string>
+  <string name="share_message">I heart Shush for Android. http://shushapp.com</string>
+  <string name="share_subject">@string/app_name</string>
+  <string name="color">Color</string>
+  <string name="rate">Let everyone know</string>
+
+  <!-- Dialog -->
+  <string name="turn_wifi_on">Enable Wifi in:</string>
+  <string name="wifi_disabled_until">Wifi disabled \'til %1$s</string>
+  <string name="wifi_disabled_indefinitely">Wifi disabled indefinitely!</string>
+  <string name="disable">Disable</string>
+  <string name="keep_disabled">Keep it disabled</string>
+  <string name="enable_now">Select to enable Wifi now</string>
+
+  <string name="wifi_restored">WiFi restored</string>
+
+</resources>
