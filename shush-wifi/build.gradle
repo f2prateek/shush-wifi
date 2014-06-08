@@ -47,7 +47,7 @@ android {
       versionNameSuffix "-debug"
     }
     release {
-      signingConfig signingConfigs.debug
+      signingConfig signingConfigs.release
       runProguard false
     }
   }
