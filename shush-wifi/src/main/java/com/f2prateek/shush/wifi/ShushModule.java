@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.f2prateek.shush.wifi.modules;
+package com.f2prateek.shush.wifi;
 
 import android.app.AlarmManager;
 import android.app.Application;
@@ -25,12 +25,8 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.net.wifi.WifiManager;
-import com.f2prateek.shush.wifi.OnWifiStateChanged;
-import com.f2prateek.shush.wifi.ShushApp;
-import com.f2prateek.shush.wifi.TurnWifiOn;
-import com.f2prateek.shush.wifi.WelcomeScreen;
-import com.f2prateek.shush.wifi.WifiSchedulerDialog;
 import com.f2prateek.shush.wifi.base.BaseBroadcastReceiver;
+import com.f2prateek.shush.wifi.prefs.PreferencesModule;
 import dagger.Module;
 import dagger.Provides;
 import javax.inject.Singleton;

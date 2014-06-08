@@ -15,15 +15,10 @@
  * limitations under the License.
  */
 
-package com.f2prateek.shush.wifi.modules;
+package com.f2prateek.shush.wifi.prefs;
 
 import android.content.SharedPreferences;
 import android.content.res.Resources;
-import com.f2prateek.shush.wifi.prefs.BooleanPreference;
-import com.f2prateek.shush.wifi.prefs.Color;
-import com.f2prateek.shush.wifi.prefs.IntPreference;
-import com.f2prateek.shush.wifi.prefs.Minutes;
-import com.f2prateek.shush.wifi.prefs.NotificationsEnabled;
 import dagger.Module;
 import dagger.Provides;
 import javax.inject.Singleton;

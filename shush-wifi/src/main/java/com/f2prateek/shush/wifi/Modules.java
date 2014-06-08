@@ -17,8 +17,6 @@
 
 package com.f2prateek.shush.wifi;
 
-import com.f2prateek.shush.wifi.modules.ShushModule;
-
 final class Modules {
   static Object[] list(ShushApp app) {
     return new Object[] {
