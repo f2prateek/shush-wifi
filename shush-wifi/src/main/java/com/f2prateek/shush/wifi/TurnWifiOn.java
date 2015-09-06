@@ -42,9 +42,9 @@ public final class TurnWifiOn extends BaseBroadcastReceiver {
     super.onReceive(context, intent);
     if (wifiManager.isWifiEnabled()) {
       return;
-    } else {
-      wifiManager.setWifiEnabled(true);
     }
+    
+    wifiManager.setWifiEnabled(true);
   }
 
   public static void schedule(AlarmManager alarmManager, PendingIntent ringerOnIntent,
